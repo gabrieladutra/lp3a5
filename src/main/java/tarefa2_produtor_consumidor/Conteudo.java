@@ -1,4 +1,4 @@
-package atividade2_produtor_consumidor;
+package tarefa2_produtor_consumidor;
 
 public class Conteudo {
     private int valor;

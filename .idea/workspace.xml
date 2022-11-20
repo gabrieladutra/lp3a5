@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00a7e03-0cc6-41e2-b4fb-76d2fecba5f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Consumidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Conteudo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Produtor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tarefa3_programacao_concorrente/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tarefa3_programacao_concorrente/QuicksortForkJoinHoare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade2_produtor_consumidor/Consumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Consumidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade2_produtor_consumidor/Conteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Conteudo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade2_produtor_consumidor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade2_produtor_consumidor/Produtor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Produtor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
@@ -50,12 +48,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -63,14 +65,30 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Tarefa 2 - Problema Produtor Consumidor" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.tarefa3_programacao_concorrente.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <option name="MAIN_CLASS_NAME" value="tarefa2_produtor_consumidor.Main" />
       <module name="lp3a5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="tarefa2_produtor_consumidor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tarefa3_programacao_concorrente.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarefa3_programacao_concorrente.Main" />
+      <module name="lp3a5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tarefa3_programacao_concorrente.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tarefa3_programacao_concorrente.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -92,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668981767510</updated>
-      <workItem from="1668981768440" duration="1891000" />
+      <workItem from="1668981768440" duration="4191000" />
     </task>
     <servers />
   </component>
