@@ -2,6 +2,10 @@ package tarefa3_programacao_concorrente;
 
 import java.util.concurrent.ForkJoinPool;
 
+/*
+Baseado no  Link disponiblizado em Aula
+ */
+
 public class Main {
     public static void main(String[] args) {
         ForkJoinPool pool = new ForkJoinPool();
@@ -16,9 +20,9 @@ public class Main {
 
     //Método auxiliar para imprimir os arrays
     private static String arrayToString(int[] array){
-        String aux = "[" + array[0];
+        StringBuilder aux = new StringBuilder("[" + array[0]);
         for(int i = 1; i < array.length; i++){
-            aux += ", " + array[i];
+            aux.append(", ").append(array[i]);
         }
         return aux + "]";
     }

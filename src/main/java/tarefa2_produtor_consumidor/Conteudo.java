@@ -1,8 +1,12 @@
 package tarefa2_produtor_consumidor;
 
+/*
+Referência para estudo: github/ingogbe
+ */
+
 public class Conteudo {
-    private int valor;
-    private Produtor produtor;
+    private final int valor;
+    private final Produtor produtor;
 
     public Conteudo(int valor, Produtor produtor){
         this.valor = valor;

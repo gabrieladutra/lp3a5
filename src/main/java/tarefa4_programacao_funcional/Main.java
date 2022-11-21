@@ -13,8 +13,8 @@ public class Main {
         System.out.println(getImpares(numeros));
         getDobro(numeros);
 
-        Stream<String> s = Stream.of("333", "36", "45","9","108");
-        List<String> listaCollector = s.collect(Collectors.toList());
+        Stream<String> sequencia = Stream.of("333", "36", "45","9","108");
+        List<String> listaCollector = sequencia.collect(Collectors.toList());
         System.out.println( listaCollector );
         System.out.println(getListaSemValoresRepetidos(numeros));
 

@@ -2,12 +2,15 @@ package tarefa2_produtor_consumidor;
 
 import java.util.LinkedList;
 import java.util.concurrent.Semaphore;
+/*
+Referência para estudo: github/ingogbe
+ */
 
 public class Produtor extends Thread {
-    private String nomeProdutor;
-    private LinkedList<Conteudo> lista;
-    private Semaphore semaforo;
-    private Semaphore mutex;
+    private final String nomeProdutor;
+    private final LinkedList<Conteudo> lista;
+    private final Semaphore semaforo;
+    private final Semaphore mutex;
     private int productions;
 
     public Produtor(String nomeProdutor, LinkedList<Conteudo> lista, Semaphore semaforo, Semaphore mutex, int producao){
@@ -18,6 +21,7 @@ public class Produtor extends Thread {
         this.productions = producao;
     }
 
+    @SuppressWarnings("BusyWait")
     public void run() {
         try {
             while (getProductions() > 0) {
@@ -36,7 +40,7 @@ public class Produtor extends Thread {
     public void produce(){
         Conteudo conteudo = new Conteudo(getDecrementedProductions(), this);
         getLista().add(conteudo);
-        System.out.println("Produtor \"" + getNomeProdutor() + "\" write: " + conteudo.getValor());
+        System.out.println("Produtor \"" + getNomeProdutor() + "\" escreve: " + conteudo.getValor());
     }
 
     public LinkedList<Conteudo> getLista() {

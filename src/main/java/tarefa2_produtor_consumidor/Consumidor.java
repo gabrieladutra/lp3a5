@@ -2,11 +2,16 @@ package tarefa2_produtor_consumidor;
 
 import java.util.LinkedList;
 import java.util.concurrent.Semaphore;
+
+/*
+Referência para estudo: github/ingogbe
+ */
+
 public class Consumidor extends Thread {
-    private String nomeConsumidor;
-    private LinkedList<Conteudo> lista;
-    private Semaphore semaforo;
-    private Semaphore mutex;
+    private final String nomeConsumidor;
+    private final LinkedList<Conteudo> lista;
+    private final Semaphore semaforo;
+    private final Semaphore mutex;
     private int consumos;
 
     public Consumidor(String nomeConsumidor, LinkedList<Conteudo> lista, Semaphore sem, Semaphore mutex, int consumptions) {
@@ -33,7 +38,7 @@ public class Consumidor extends Thread {
 
     public void consume(){
         Conteudo conteudo = getLista().removeFirst();
-        System.out.println("Consumidor \"" + getNomeConsumidor() + "\" read: " + conteudo.getValor() + " from " + conteudo.getProdutor().getNomeProdutor() + ". Consumptions left: " + getConsumosDecrementados());
+        System.out.println("Consumidor \"" + getNomeConsumidor() + "\" lê: " + conteudo.getValor() + " de " + conteudo.getProdutor().getNomeProdutor() + ". Consumos restastes: " + getConsumosDecrementados());
     }
 
     public String getNomeConsumidor() {

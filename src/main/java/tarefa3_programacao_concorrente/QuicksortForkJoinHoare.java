@@ -1,10 +1,13 @@
 package tarefa3_programacao_concorrente;
 import java.util.concurrent.RecursiveAction;
 
+/*
+Baseado no Link disponiblizado em Aula
+ */
 public class QuicksortForkJoinHoare extends RecursiveAction {
-    private int[] arrayDesordenado;
-    private int inicio;
-    private int fim;
+    private final int[] arrayDesordenado;
+    private final int inicio;
+    private final int fim;
 
     public QuicksortForkJoinHoare(int[] arrayDesordenado, int inicio, int fim){
         this.arrayDesordenado = arrayDesordenado;
