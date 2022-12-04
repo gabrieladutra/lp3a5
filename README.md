@@ -19,7 +19,7 @@ Link para as anotações no **[Notion](https://imaginary-learning-aaa.notion.sit
 
 ### 🚀 Resolução das Atividades
 
-[Tarefa 2 - Problema do Produtor Consumidor](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa2_produtor_consumidore)
+[Tarefa 2 - Problema do Produtor Consumidor](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa2_produtor_consumidor)
 
 [Tarefa 3 - Quicksort com Fork Join](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa3_programacao_concorrente)
 
