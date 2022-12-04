@@ -7,16 +7,29 @@ Referência para estudo: github/ingogbe
  */
 
 public class Main {
+    public static void main(String[] args) throws InterruptedException {
+        ProdutorConsumidor pc = new ProdutorConsumidor();
 
-    public static void main(String[] args) {
+        Thread threadProdutor = new Thread(() -> {
+            try {
+                pc.produzir();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
 
-        LinkedList<Conteudo> list = new LinkedList<>();
-        Semaphore sem = new Semaphore(0);
-        Semaphore mutex = new Semaphore(1);
+        Thread threadConsumidor = new Thread(() -> {
+            try {
+                pc.consumir();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
 
-        new Produtor("Pedro", list, sem, mutex, 5).start();
-        new Produtor("José", list, sem, mutex, 2).start();
-        new Consumidor("Maria", list, sem, mutex, 1).start();
-        new Consumidor("Elizabeth", list, sem, mutex, 3).start();
+        threadProdutor.start();
+        threadConsumidor.start();
+
+        threadProdutor.join();
+        threadConsumidor.join();
     }
 }

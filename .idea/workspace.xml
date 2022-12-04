@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00a7e03-0cc6-41e2-b4fb-76d2fecba5f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa4_programacao_funcional/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa4_programacao_funcional/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa5_optional_exceptions/ExemploOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa5_optional_exceptions/ExemploOptional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa5_optional_exceptions/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/ProdutorConsumidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Consumidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Conteudo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Produtor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa4_programacao_funcional/Paises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa4_programacao_funcional/Paises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
       <recent name="$PROJECT_DIR$/src/Tarefa 2 - Problema Produtor Consumidor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.tarefa4_programacao_funcional.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tarefa2_produtor_consumidor.Main" />
       <module name="lp3a5" />
@@ -82,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tarefa3_programacao_concorrente.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tarefa3_programacao_concorrente.Main" />
+    <configuration name="Paises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarefa4_programacao_funcional.Paises" />
       <module name="lp3a5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarefa3_programacao_concorrente.*" />
+          <option name="PATTERN" value="tarefa4_programacao_funcional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tarefa4_programacao_funcional.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tarefa4_programacao_funcional.Main" />
+    <configuration name="tarefa3_programacao_concorrente.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarefa3_programacao_concorrente.Main" />
       <module name="lp3a5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarefa4_programacao_funcional.*" />
+          <option name="PATTERN" value="tarefa3_programacao_concorrente.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,10 +140,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.tarefa4_programacao_funcional.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Paises" />
         <item itemvalue="Application.tarefa6_gilded_rose.Main" />
         <item itemvalue="Application.tarefa5_optional_exceptions.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.tarefa3_programacao_concorrente.Main" />
       </list>
     </recent_temporary>
@@ -155,11 +159,26 @@
       <workItem from="1668981768440" duration="11627000" />
       <workItem from="1669043544561" duration="83000" />
       <workItem from="1669044067337" duration="5692000" />
-      <workItem from="1670187293401" duration="6176000" />
+      <workItem from="1670187293401" duration="7482000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/tarefa4_programacao_funcional/Paises.java</url>
+          <line>7</line>
+          <properties class="tarefa4_programacao_funcional.Paises" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

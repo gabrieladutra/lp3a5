@@ -39,7 +39,7 @@ public class Paises {
                 Map<String, Integer> map = new HashMap<>();
 
                 listaDePaises.forEach(
-                        (friend) -> map.put(friend, friend.length())
+                        (pais) -> map.put(pais, pais.length())
                 );
                 return map;
             }
