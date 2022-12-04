@@ -31,7 +31,7 @@ Link para as anotações no **[Notion](https://imaginary-learning-aaa.notion.sit
 [Tarefa 5 - Optional e Exceptions](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa5_optional_exceptions)
 
 
-[Tarefa 6 -Refactoring - Gilded Rose](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa5_optional_exceptions)
+[Tarefa 6 -Refactoring - Gilded Rose](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa6_gilded_rose)
 
 
 </br>
