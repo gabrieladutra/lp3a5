@@ -19,7 +19,7 @@ Link para as anotações no **[Notion](https://imaginary-learning-aaa.notion.sit
 
 ### 🚀 Resolução das Atividades
 
-[Tarefa 1 - Problema do Produtor Consumidor](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa3_programacao_concorrente)
+[Tarefa 2 - Problema do Produtor Consumidor](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa3_programacao_concorrente)
 
 [Tarefa 3 - Quicksort com Fork Join](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa3_programacao_concorrente)
 
@@ -28,9 +28,10 @@ Link para as anotações no **[Notion](https://imaginary-learning-aaa.notion.sit
 
 
 
-[Tarefa 5 - Optional e Exceção](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa5_optional_exceptions)
+[Tarefa 5 - Optional e Exceptions](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa5_optional_exceptions)
 
 
+[Tarefa 6 -Refactoring - Gilded Rose](https://github.com/gabrieladutra/lp3a5/tree/master/src/main/java/tarefa5_optional_exceptions)
 
 
 </br>
