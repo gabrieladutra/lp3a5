@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00a7e03-0cc6-41e2-b4fb-76d2fecba5f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tarefa5_optional_exceptions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tarefa6_gilded_rose/GildedRose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tarefa6_gilded_rose/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tarefa6_gilded_rose/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Consumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Consumidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Conteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Conteudo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Produtor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa2_produtor_consumidor/Produtor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa3_programacao_concorrente/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa3_programacao_concorrente/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa3_programacao_concorrente/QuicksortForkJoinHoare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa3_programacao_concorrente/QuicksortForkJoinHoare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tarefa4_programacao_funcional/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarefa4_programacao_funcional/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +64,11 @@
       <recent name="org.example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/tarefa6_gilded_rose" />
       <recent name="$PROJECT_DIR$/src/Tarefa 2 - Problema Produtor Consumidor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.tarefa5_optional_exceptions.Main">
+  <component name="RunManager" selected="Application.tarefa6_gilded_rose.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tarefa2_produtor_consumidor.Main" />
       <module name="lp3a5" />
@@ -126,8 +121,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tarefa6_gilded_rose.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarefa6_gilded_rose.Main" />
+      <module name="lp3a5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tarefa6_gilded_rose.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tarefa6_gilded_rose.Main" />
         <item itemvalue="Application.tarefa5_optional_exceptions.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.tarefa4_programacao_funcional.Main" />
@@ -145,7 +154,8 @@
       <updated>1668981767510</updated>
       <workItem from="1668981768440" duration="11627000" />
       <workItem from="1669043544561" duration="83000" />
-      <workItem from="1669044067337" duration="5180000" />
+      <workItem from="1669044067337" duration="5692000" />
+      <workItem from="1670187293401" duration="1373000" />
     </task>
     <servers />
   </component>
