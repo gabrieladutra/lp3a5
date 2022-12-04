@@ -10,7 +10,7 @@ public class ExemploException {
     }
 
     public static void main(String[] args) {
-        int dividendo, divisor, resultado
+        int dividendo, divisor, resultado;
         Scanner leitor = new Scanner(System.in);
         boolean continua = true;
 
