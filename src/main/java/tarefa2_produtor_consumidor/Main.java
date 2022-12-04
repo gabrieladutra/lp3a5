@@ -1,7 +1,5 @@
 package tarefa2_produtor_consumidor;
 
-import java.util.LinkedList;
-import java.util.concurrent.Semaphore;
 /*
 Referência para estudo: github/ingogbe
  */
